@@ -1,0 +1,177 @@
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+
+/* Header */
+    .header-with-search.row {
+        margin: 0 8px;
+        padding: 19px 0 8px 0;
+    }
+    
+    .header__logo {
+        width: 200px;
+    }
+    
+    .header__search {
+        width: 618px;
+    }
+    
+    .header__search-input--swap {
+        flex: 1;
+        width: 200px;
+    }
+
+    .header__search-input {
+        flex: 1;
+        width: 450px;
+    }
+    
+    .header__cart {
+        align-items: flex-end;
+    }
+
+/* Category */
+    .category__header img {
+        margin-right: 8px;
+    }
+
+    .category__header--heading {
+        font-size: 1.5rem;
+    }
+
+    .category__filter {
+        font-size: 1.25rem;
+    }
+
+    .price-range-filter {
+        margin-bottom: 5px;
+    }
+
+    .price-range-filter__input {
+        width: 65px;
+        line-height: 2.5rem;
+    }
+
+    .category__filter-option-rating {
+        padding: 0 10px;
+    }
+
+    .category__footer--remove-btn {
+        font-size: 1.3rem;
+    }
+
+/* List product */ 
+    .item-link {
+        height: 290px;
+    }
+
+    .item__favorite-tag,
+    .item__sale-off-tag {
+        font-size: 1.1rem;
+    }
+
+    .item__sale-off-tag {
+        font-weight: 600;
+    }
+
+    .product-img {
+        height: 152px;
+    }
+
+    .item__info {
+        height: 145px;
+    }
+
+    .item__price {
+        font-size: 1.35rem;
+    }
+
+    .item__info--sold {
+        margin-top: 6px;
+    }
+
+    .item__info--sold-amount {
+        font-size: 1.1rem;
+    }
+
+    .item__address {
+        margin-top: 4px;
+    }
+
+    .home-controller__btn {
+        font-size: 1.8rem;
+    }
+
+    .home-controller__btn--left, 
+    .home-controller__btn--right {
+        font-size: 1.4rem;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer__item-paying {
+        margin-right: 10px;
+    }
+
+    .footer__item-paying-img {
+        width: 50px;
+    }
+    
+}
+
+@media (min-width: 1024px) and (max-width: 1113px) {
+
+}
+
+/* >= TABLEB */
+@media (min-width: 740px) and (max-width: 1023px) {
+    /* .category__header--heading {
+        font-size: 1.4rem;
+    } */
+}  
+/* Mobile */
+@media (max-width: 739px) {
+    .header {
+        height: 70px;
+    }
+    
+    .header__logo, 
+    .header__navbar,
+    .header__search-select,
+    .header__search-recommend {
+        display: none;
+        
+    }
+    
+    .header-with-search.row {
+        height: auto;
+    }
+    
+    .header__menu-icon {
+        font-size: 2rem;
+        color: var(--white-color);
+    }
+    
+    .header__search-input--swap {
+        width: 488px;
+    }
+    
+    .header__search-icon {
+        /* height: 100%; */
+        border-radius: 0 2px 2px 0;
+        z-index: 1;
+    }
+    
+    .header-with-search.row {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header__search-input {
+        width: 450px;
+    }
+
+}

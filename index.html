@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 </head>
@@ -132,7 +133,7 @@
                                 <a href="" class="header__navbar-user--link">Đơn Mua</a>
                                 <a href="" class="header__navbar-user--link">Đăng Xuất</a>
                             </div>
-                        </li>
+                        </li>   
                     </ul>
                 </nav>
 
@@ -144,11 +145,16 @@
                         </a>
                     </div>
 
+                    <!-- Menu bars -->
+                    <div class="header__menu-icon m-1">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
                     <!-- Search -->
-                    <div class="header__search">
+                    <div class="header__search m-10">
                         <div class="header__search-input--swap">
                             <input type="text" class="header__search-input" placeholder="Nhập tên sản phẩm cần tìm kiếm"></input>
-                            
+                     
                             <div class="header__search-history">
                                 <h3 class="header__search-history--heading f-w-300">Lịch sử tìm kiếm</h3>
                                 <ul class="header__search-history--list">
@@ -211,7 +217,7 @@
                     </div>
 
                     <!-- Cart -->
-                    <div class="header__cart">
+                    <div class="header__cart m-1">
                         <div class="header__cart-wrap">
                             <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
                             <span class="header__cart-notify">3</span>
@@ -273,8 +279,8 @@
         
         <div class="container">
             <div class="grid wide">
-                <div class="row no-gutters">
-                    <div class="col">
+                <div class="row sm-gutter">
+                    <div class="col l-2">
                         <div class="category">
                             <div class="category__header">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAT5JREFUSEvtlmFRxDAQhb9TAChAAkgACTgABXAKAAXg4A4HOAAcIAEJoICbN7PLhNKkm6Qz5cftv043+2VfXzZdsVCsFuLyL8FnwPeMinwB714v1/EHcDwj1EtdAM96yIHn7DTd/z1wFwE/AdsZOn+xGmHwT2In3BWcBH8CB2aGc0DPrXEJbGzxGngsSa2X15YsJ7bCU6hcfQrIuFlzHQKvwEkHPIWqzFXql9IA6YEXoaWO/Xu2wCehEbByauAhaBQchYehNeAxuMwntys0131I/DHS2DmsvZ2Gsvt6jcFbA/xyb+7w14JVJ4WMgUM1Q0mDXe/BOfmLs30vdeTqS811ZLfYjU248GzolVr3tM62h/5YNMEmoxfsgDc735pmoWgBS9YHq14N9F21gLVWcP2ZhDscytAKDslZSloMvAOFWlMfpZqLbgAAAABJRU5ErkJggg=="/>
@@ -497,7 +503,7 @@
                     </div>
 
                     <!-- LIST PRODUCT -->
-                    <div class="col list-product">
+                    <div class="col l-10 list-product">
                         <div class="home-filter">
                             <span class="home-filter__lable">Sắp xếp theo</span>
                             <div class="home-filter__option">
@@ -535,7 +541,7 @@
                         
                         <div class="search-product-result">
                             <div class="row">
-                                <div class="col l-2-4 search-product-result__item">
+                                <div class="col l-2-4 m-2-4 search-product-result__item">
                                     <a href="\" class="item-link">
                                         <div class="item__favorite-tag">Yêu thích +</div>
                                         <div class="item__sale-off-tag">
@@ -584,7 +590,7 @@
                                     </a>
                                 </div>
 
-                                <div class="col l-2-4 search-product-result__item">
+                                <div class="col l-2-4 m-2-4 search-product-result__item">
                                     <a href="\" class="item-link">
                                         <div class="item__favorite-tag">Yêu thích +</div>
                                         <div class="item__sale-off-tag">
@@ -633,7 +639,7 @@
                                     </a>
                                 </div>
 
-                                <div class="col l-2-4 search-product-result__item">
+                                <div class="col l-2-4 m-2-4 search-product-result__item">
                                     <a href="\" class="item-link">
                                         <div class="item__favorite-tag">Yêu thích +</div>
                                         <div class="item__sale-off-tag">
@@ -683,7 +689,7 @@
                                     </a>
                                 </div>
 
-                                <div class="col l-2-4 search-product-result__item">
+                                <div class="col l-2-4 m-2-4 search-product-result__item">
                                     <a href="\" class="item-link">
                                         <div class="item__favorite-tag">Yêu thích +</div>
                                         <div class="item__sale-off-tag">
@@ -733,7 +739,7 @@
                                     </a>
                                 </div>
 
-                                <div class="col l-2-4 search-product-result__item">
+                                <div class="col l-2-4 m-2-4 search-product-result__item">
                                     <a href="\" class="item-link">
                                         <div class="item__favorite-tag">Yêu thích +</div>
                                         <div class="item__sale-off-tag">
@@ -1800,7 +1806,7 @@
         <div class="footer">
             <div class="grid wide footer__content">
                 <div class="row sm-gutter">
-                    <div class="col l-5-4">
+                    <div class="col l-5-4 m-2-4">
                         <div class="footer__heading">chăm sóc khách hàng</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1821,7 +1827,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4">
+                    <div class="col l-5-4 m-2-4">
                         <div class="footer__heading">về shopee</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1839,7 +1845,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4">
+                    <div class="col l-5-4 m-2-4">
                         <div class="footer__heading">thanh toán</div>
                         <ul class="footer__list footer__list-paying">
                             <li class="footer__item footer__item-paying">
@@ -1863,7 +1869,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4">
+                    <div class="col l-5-4 m-2-4">
                         <div class="footer__heading">theo dõi chúng tôi trên</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1889,7 +1895,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-1">
+                    <div class="col l-5-1 m-2-4">
                         <div class="footer__heading">tải ứng dụng shopee ngay</div>
                         <div class="footer__download">
                             <img src="./assets/image/qr_code.png" alt="QR code" class="footer__download-qr-code"></img>
