@@ -1,3 +1,10 @@
+
+@media (min-width: 1239px) {
+    .header__search {
+        flex: 1;
+    }
+}
+
 /* > PC low resolution */
 @media (min-width: 1024px) and (max-width: 1239px) {
 
@@ -138,30 +145,48 @@
         height: var(--header-tablet-height);
     }
 
-    .header-with-search.row {
-        height: 100%;
-        display: block;
+    .header__search {
         position: relative;
     }
 
+    .header-with-search {
+        padding: 10px 0 0;
+    }
+
+    .header-with-search.row {
+        height: 100%;
+    }
+
+    .header__search-recommend {
+        height: auto;
+        top: 100%;
+        font-size: 1.1rem;
+    }
+
     .header__menu-icon {
-        display: block;
+        display: flex;
+        align-items: center;
+        font-size: 2.5rem;
+        position: relative;
+    }
+
+    .list-mobile-menu {
+        display: flex;
+        position: absolute;
+        background-color: var(--white-color);
+        margin: 0;
     }
 
     .header__logo {
-        
+        display: none;
     }
 
     .header__logo-img {
         width: 130px;
     }
 
-    .header__search {
-        display: none;
-    }
-
-    .header__search-input {
-
+    .header__cart-icon {
+        font-size: 2.2rem;
     }
 
 }  

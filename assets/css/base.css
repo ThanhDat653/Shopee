@@ -6,7 +6,7 @@
     --primary-hover-color: #F05D41;
 
     --header-pc-height: 120px;
-    --header-tablet-height: 90px;
+    --header-tablet-height: 70px;
     --header-navbar-height: 35px;
     --header-search-height: calc(var(--header-height) - var(--header-navbar-height))
 }
