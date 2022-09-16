@@ -28,6 +28,10 @@ body {
     background-color: #f5f5f5;
 }
 
+.app {
+    position: relative;
+}
+
 .f-w-300 {
     font-weight: 300;
 }

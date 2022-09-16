@@ -141,11 +141,6 @@
                     <!-- Menu bars -->
                     <div class="header__menu-icon m-1">
                         <i class="fa-solid fa-bars"></i>
-                        <ul class="list-mobile-menu">
-                            <li class="mobile-menu-item">
-                                <a href="" class="mobile-menu-item--link">Tài Khoản Của Tôi</a>
-                            </li>
-                        </ul>
                     </div>
 
                     <!-- Logo -->
@@ -281,11 +276,96 @@
                 </div>
             </div>
         </div>
+
+        <div class="header__mobile-menu-list">
+            <div class="mobile-menu-list__logo">
+                <a href="/" class="mobile-menu-list__logo--link">
+                    <img src="./assets/image/Shopee-Logo.png" alt="" class="mobile-menu-list__logo-img">
+                </a>
+            </div>
+
+            <div class="mobile-menu__list-wrapper">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-user"></i>
+                        <a href="" class="mobile-menu-item--link">Tài Khoản Của Tôi</a>
+                    </li>
+
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-bag-shopping"></i>
+                        <a href="" class="mobile-menu-item--link">Đơn Mua</a>
+                    </li>
+                </ul>
+
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-house"></i>
+                        <a href="" class="mobile-menu-item--link">Trang Chủ</a>
+                    </li>
+
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-earth-asia"></i>
+                        <a href="" class="mobile-menu-item--link">Ngôn Ngữ</a>
+                    </li>
+                
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-bell"></i>
+                        <a href="" class="mobile-menu-item--link">Thông Báo</a>
+                    </li>
+
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-circle-exclamation"></i>
+                        <a href="" class="mobile-menu-item--link">Giới Thiệu</a>
+                    </li>
+                </ul>
+
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-cloud-arrow-down"></i>
+                        <a href="" class="mobile-menu-item--link">Tải Ứng Dụng</a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-circle-question"></i>
+                        <a href="" class="mobile-menu-item--link">Trung Tâm Trợ Giúp</a>
+                    </li>
+
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-phone"></i>
+                        <a href="" class="mobile-menu-item--link">Chăm Sóc Khách Hàng</a>
+                    </li>
+                </ul>
+
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-brands fa-facebook"></i>
+                        <a href="" class="mobile-menu-item--link">Facebook</a>
+                    </li>
+                    
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-brands fa-square-instagram"></i>
+                        <a href="" class="mobile-menu-item--link">Instagram</a>
+                    </li>
+
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-brands fa-linkedin"></i>
+                        <a href="" class="mobile-menu-item--link">Likedln</a>
+                    </li>
+                </ul>
+
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu-item">
+                        <i class="mobile-menu__icon fa-solid fa-right-from-bracket"></i>
+                        <a href="" class="mobile-menu-item--link">Đăng Xuất</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
         
         <div class="container">
             <div class="grid wide">
                 <div class="row sm-gutter">
-                    <div class="col l-2">
+                    <div class="col l-2 m-0">
                         <div class="category">
                             <div class="category__header">
                                 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAT5JREFUSEvtlmFRxDAQhb9TAChAAkgACTgABXAKAAXg4A4HOAAcIAEJoICbN7PLhNKkm6Qz5cftv043+2VfXzZdsVCsFuLyL8FnwPeMinwB714v1/EHcDwj1EtdAM96yIHn7DTd/z1wFwE/AdsZOn+xGmHwT2In3BWcBH8CB2aGc0DPrXEJbGzxGngsSa2X15YsJ7bCU6hcfQrIuFlzHQKvwEkHPIWqzFXql9IA6YEXoaWO/Xu2wCehEbByauAhaBQchYehNeAxuMwntys0131I/DHS2DmsvZ2Gsvt6jcFbA/xyb+7w14JVJ4WMgUM1Q0mDXe/BOfmLs30vdeTqS811ZLfYjU248GzolVr3tM62h/5YNMEmoxfsgDc735pmoWgBS9YHq14N9F21gLVWcP2ZhDscytAKDslZSloMvAOFWlMfpZqLbgAAAABJRU5ErkJggg=="/>
@@ -508,14 +588,14 @@
                     </div>
 
                     <!-- LIST PRODUCT -->
-                    <div class="col l-10 list-product">
+                    <div class="col l-10 m-12 list-product">
                         <div class="home-filter">
                             <span class="home-filter__lable">Sắp xếp theo</span>
                             <div class="home-filter__option">
-                                <button class="home-filter__btn home-filter__btn--primary">Liên Quan</button>
-                                <button class="home-filter__btn">Mới Nhất</button>
-                                <button class="home-filter__btn">Bán Chạy</button>
-                                <div class="select-price__input home-filter__btn">
+                                <button class="home-filter__btn mobile-home-filter__btn home-filter__btn--primary mobile-home-filter__btn--primary">Liên Quan</button>
+                                <button class="home-filter__btn mobile-home-filter__btn">Mới Nhất</button>
+                                <button class="home-filter__btn mobile-home-filter__btn">Bán Chạy</button>
+                                <div class="select-price__input home-filter__btn ">
                                     <span class="select-price__lable">Giá</span>
                                     <span>
                                         <i class="ti-angle-down option-price--icon"></i>
@@ -526,6 +606,10 @@
                                         <li class="select-price__option">Giá: Cao Đến Thấp</li>
                                     </ul>
                                 </div>
+                                <button class="home-filter__btn mobile-home-filter__btn mobile-filter-btn">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAT5JREFUSEvtlmFRxDAQhb9TAChAAkgACTgABXAKAAXg4A4HOAAcIAEJoICbN7PLhNKkm6Qz5cftv043+2VfXzZdsVCsFuLyL8FnwPeMinwB714v1/EHcDwj1EtdAM96yIHn7DTd/z1wFwE/AdsZOn+xGmHwT2In3BWcBH8CB2aGc0DPrXEJbGzxGngsSa2X15YsJ7bCU6hcfQrIuFlzHQKvwEkHPIWqzFXql9IA6YEXoaWO/Xu2wCehEbByauAhaBQchYehNeAxuMwntys0131I/DHS2DmsvZ2Gsvt6jcFbA/xyb+7w14JVJ4WMgUM1Q0mDXe/BOfmLs30vdeTqS811ZLfYjU248GzolVr3tM62h/5YNMEmoxfsgDc735pmoWgBS9YHq14N9F21gLVWcP2ZhDscytAKDslZSloMvAOFWlMfpZqLbgAAAABJRU5ErkJggg=="/>
+                                    <span>Bộ Lọc</span>
+                                </button>
                             </div>
 
                             <div class="page-controller">
@@ -544,1249 +628,988 @@
                             </div>
                         </div>
                         
-                        <div class="search-product-result">
-                            <div class="row">
-                                <div class="col l-2-4 m-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>          
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 m-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 m-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-                                        
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 m-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 m-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                                                                
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                            </div>
-
-                            <div class="row">
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>          
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-                                        
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="col l-2-4 search-product-result__item">
-                                    <a href="\" class="item-link">
-                                        <div class="item__favorite-tag">Yêu thích +</div>
-                                        <div class="item__sale-off-tag">
-                                            <div class="item__sale-off-percent">50%</div>
-                                            <div class="item__sale-off-lable">giảm</div>
-                                        </div>
-
-                                        <div class="product-img">
-                                            <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
-                                            <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
-                                        </div>
-
-                                        <div class="item__info">
-                                            <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
-                                            <div class="item__info--endow">
-                                                <span>Mua để nhận quà</span>
-                                            </div>
-
-                                            <div class="item__price">
-                                                <span class="old-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    <span>220.000</span>
-                                                </span>
-
-                                                <span class="new-price">
-                                                    <i class="fa-solid fa-dong-sign vnd-icon"></i>
-                                                    120.000
-                                                </span>
-
-                                                <i class="fa-solid fa-truck-fast deliver-icon"></i>
-                                            </div>
-
-                                            <div class="item__info--sold">
-                                                <div class="item__rate">
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                    <i class="fa-solid fa-star star-icon--rate star-icon"></i>
-                                                </div>
-                                                <span class="item__info--sold-amount">Đã bán 199k</span>
-                                            </div>
-
-                                            <div class="item__address">Hà Nội</div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
+                        <div class="search-product-result row">
                             
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>          
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+                                    
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable_plus.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/lable_gia_tot.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col l-2-4 m-3 search-product-result__item">
+                                <a href="\" class="item-link">
+                                    <div class="item__favorite-tag">Yêu thích +</div>
+                                    <div class="item__sale-off-tag">
+                                        <div class="item__sale-off-percent">50%</div>
+                                        <div class="item__sale-off-lable">giảm</div>
+                                    </div>
+                                                                            
+                                    <div class="product-img">
+                                        <img src="./assets/image/freeship_lable.png" alt="" class="best-price-lable">
+                                        <img class="item__img" alt="" src="./assets/image/macbook_air_m2_1_1.jpg"></img>
+                                    </div>
+
+                                    <div class="item__info">
+                                        <div class="item__name">Apple Macbook Air M2 2022 8GB 256GB </div>
+                                        <div class="item__info--endow">
+                                            <span>Mua để nhận quà</span>
+                                        </div>
+
+                                        <div class="item__price">
+                                            <span class="old-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                <span>220.000</span>
+                                            </span>
+
+                                            <span class="new-price">
+                                                <i class="fa-solid fa-dong-sign vnd-icon"></i>
+                                                120.000
+                                            </span>
+
+                                            <i class="fa-solid fa-truck-fast deliver-icon"></i>
+                                        </div>
+
+                                        <div class="item__info--sold">
+                                            <div class="item__rate">
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon--rate star-icon"></i>
+                                                <i class="fa-solid fa-star star-icon"></i>
+                                            </div>
+                                            <span class="item__info--sold-amount">Đã bán 199k</span>
+                                        </div>
+
+                                        <div class="item__address">Hà Nội</div>
+                                    </div>
+                                </a>
+                            </div>   
                         </div>
 
                         <div class="home-controller">
@@ -1811,7 +1634,7 @@
         <div class="footer">
             <div class="grid wide footer__content">
                 <div class="row sm-gutter">
-                    <div class="col l-5-4 m-2-4">
+                    <div class="col l-5-4 l-2-4  m-3">
                         <div class="footer__heading">chăm sóc khách hàng</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1832,7 +1655,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4 m-2-4">
+                    <div class="col l-5-4 l-2-4 m-3">
                         <div class="footer__heading">về shopee</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1850,7 +1673,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4 m-2-4">
+                    <div class="col l-5-4 l-2-4 m-0 footer__paying">
                         <div class="footer__heading">thanh toán</div>
                         <ul class="footer__list footer__list-paying">
                             <li class="footer__item footer__item-paying">
@@ -1874,7 +1697,7 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-4 m-2-4">
+                    <div class="col l-5-4 l-2-4 m-3">
                         <div class="footer__heading">theo dõi chúng tôi trên</div>
                         <ul class="footer__list">
                             <li class="footer__item">
@@ -1900,8 +1723,8 @@
                         </ul>
                     </div>
 
-                    <div class="col l-5-1 m-2-4">
-                        <div class="footer__heading">tải ứng dụng shopee ngay</div>
+                    <div class="col l-5-1 l-2-4 m-3 app__download">
+                        <div class="footer__heading">tải ứng dụng shopee</div>
                         <div class="footer__download">
                             <img src="./assets/image/qr_code.png" alt="QR code" class="footer__download-qr-code"></img>
                             <div class="footer__download-app">
@@ -1924,6 +1747,13 @@
                 <span class="footer__bottom-text">© 2022 Shopee. Tất cả các quyền được bảo lưu.</span>
             </div>
         </div>
+        
+        <div class="chat-box">
+            <div class="chat-box__notify">21</div>
+            <i class="chat-box__icon fa-solid fa-comments"></i>
+            <span class="chat-box__lable">Chat</span>
+        </div>
+
     </div>
 
     <!-- Modal layout -->
