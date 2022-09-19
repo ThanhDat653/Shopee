@@ -5,8 +5,12 @@
     --primary-color: #f53e2d;
     --primary-hover-color: #F05D41;
 
+    --mobile-height: 100%;
+    --mobile-home-filter-height: 46px;
+
     --header-pc-height: 120px;
     --header-tablet-height: 70px;
+    --header-mobile-height: 54px;
     --header-navbar-height: 35px;
     --header-search-height: calc(var(--header-height) - var(--header-navbar-height))
 }
@@ -30,6 +34,7 @@ body {
 
 .app {
     position: relative;
+    overflow: hidden;
 }
 
 .f-w-300 {

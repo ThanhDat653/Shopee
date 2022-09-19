@@ -7,6 +7,10 @@
     background-image: linear-gradient(0, #fe6433, #f53e2d);
 }
 
+.header .grid.wide {
+    height: 100%;
+}
+
 .header__navbar {
     display: flex;
     justify-content: space-between;
@@ -752,12 +756,16 @@
     color: var(--white-color);
 }
 
+.mobile-header__search {
+    display: none;
+}
+
 /* Header cart */
 .header__cart {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40px;
+    height: 100%;
     width: 142px;
 }
 
@@ -966,7 +974,7 @@
     margin-top: 12px;
 }
 
-.header__mobile-menu-list {
+.header__tablet-menu-list {
     display: none;
 }
 
@@ -1081,10 +1089,11 @@
 }
 
 .price-range-filter__line {
-    height: 1px;
-    margin: 0 10px;
+    height: 0.5px;
+    margin: 0 5px;
     flex: 1;
     background-color: #bdbdbd;
+    display: inline-block;
 }
 
 .price-range-filter__apply-btn {
