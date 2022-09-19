@@ -798,6 +798,7 @@
     right: 0;
     width: 400px;
     height: auto;
+    
     background-color: var(--white-color);
     border-radius: 2px;
     box-shadow: 0 4px 25px 10px rgb(0 0 0 / 10%);
@@ -847,6 +848,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: auto;
+    height: 100%;
+    min-height: 167px;
+    max-height: 70vh;
 }
 
 .header__cart-item {
@@ -877,13 +882,23 @@
     margin-top: 12px;
     font-size: 1.35rem;
     padding-right: 12px;
+}
+
+.header__cart-item--wrap {
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .header__cart-item--name {
+    line-height: 2rem;
+    height: 4rem;
     max-width: 210px;
     color: var(--text-color);
+    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .header__cart-item--price {
@@ -1324,8 +1339,8 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -3px;
-    border-top: 2.5px solid #933518;
+    bottom: -3.5px;
+    border-top: 3.5px solid #933518;
     border-left: 3.4px solid transparent;
 }
 .item__sale-off-tag {
@@ -1466,47 +1481,66 @@
 
 /* HOME CONTROLLER */
 
-.home-controller {
+.pagination {
     margin: 40px 0 60px ;
     display: flex;
     justify-content: center;
 }
 
-.home-controller__btn {
+.pagination__btn {
     width: 40px;
     height: 30px;
     margin: 0 15px;
+    padding: 0;
     background-color: transparent;
-    opacity: 0.4;
-    font-size: 2rem;
     border: none;
     outline: none;
     cursor: pointer;
 }
 
-.home-controller__btn-more {
-    cursor: default;
+.pagination__btn:hover .pagination__item-link {
+    color: #ee4d2d;
 }
 
-.home-controller__btn:first-child {
+.pagination__btn:hover.pagination__btn--active > 
+.pagination__item-link {
+    color: var(--white-color);
+}
+
+.pagination__item-link {
+    font-size: 2rem;
+    padding: 3px 15px;
+    text-decoration: none;
+    color: #939393;
+}
+
+.pagination__btn--active > .pagination__item-link {
+    color: var(--white-color);
+}
+
+.pagination__btn-more {
+    cursor: default;
+    font-size: 2.4rem;
+}
+
+.pagination__btn:first-child {
     margin-left: 0;
 }
 
-.home-controller__btn:last-child {
+.pagination__btn:last-child {
     margin-right: 0;
 }
 
-.home-controller__btn--current {
+.pagination__btn--active {
     background-color: #ee4d2d;
     color: var(--white-color);
     opacity: 1;
     border-radius: 2px;
 }
 
-.home-controller__btn--left,
-.home-controller__btn--right {
-    font-size: 1.6rem;
-    font-weight: bold;
+.pagination__btn--left .pagination__item-link,
+.pagination__btn--right .pagination__item-link {
+    font-size: 1.4rem;
 }
 
 /* FOOTER */
